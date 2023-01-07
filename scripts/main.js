@@ -1,8 +1,8 @@
 let date = new Date();
 let year = date.getFullYear();
 
-document.querySelector('h2').innerHTML = '&copy' + year;
+document.querySelector('footer').querySelector('h1').innerHTML = `&copy ${year} :|: W. Braden Huttash :|: Idaho`;
 
 let currentdate = document.lastModified;
 
-document.querySelector('div').textContent = `Last Updated: ${currentdate}`;
+document.querySelector('footer').querySelector('h2').textContent = `Last Updated: ${currentdate}`;
