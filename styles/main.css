@@ -72,13 +72,13 @@ footer div {
     grid-template-rows: 1fr 1fr;
 }
 
-footer h1 {
+#rights {
     grid-column: 1/2;
     font-size: 12pt;
     line-height: 50px;
 }
 
-footer h2 {
+#update {
     grid-column: 1/2;
     font-size: 10pt;
 }
