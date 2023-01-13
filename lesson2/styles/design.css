@@ -7,8 +7,20 @@ h1 {
 header {
     text-align: center;
     font-size: 2em;
-    background-color: lightgrey;
+    background-color: lightgray;
     padding: 20px;
+}
+
+main {
+
+}
+
+section {
+    
+}
+
+footer {
+    background-color: lightgray;
 }
 
 @media screen and (min-width: px) {
