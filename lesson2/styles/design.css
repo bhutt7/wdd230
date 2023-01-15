@@ -17,17 +17,21 @@ header div {
 
 section {
     text-align: center;
+    color: white;
+    background-color: darkgreen;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 15px;
 }
 
 a {
-    color: darkgreen;
+    color: white;
 }
 
 img {
     border: 5px solid lime;
     margin: 25px;
-    width: 350px;
-    height: 765px;
+    width: 80%
 }
 
 hr {
@@ -51,14 +55,19 @@ footer div {
     padding: 10px 0px;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 600px) {
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
+    img {
+        max-width: 350px;
+        width: 60%
+    }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1100px) {
     main {
         grid-template-columns: 1fr 1fr 1fr;
     }
