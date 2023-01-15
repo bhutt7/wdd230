@@ -1,32 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Comfortaa&family=Inconsolata&family=Space+Grotesk&display=swap');
 
 h1 {
-    font-family: "Space Grotesk";
+    font-family: "Space Grotesk", sans-serif;
 }
 
 header {
     text-align: center;
+}
+
+header div {
     font-size: 2em;
     background-color: lightgray;
     padding: 20px;
-}
-
-main {
-
+    margin: 40px 0;
 }
 
 section {
-    
+    text-align: center;
+}
+
+a {
+    color: darkgreen;
+}
+
+img {
+    border: 5px solid lime;
+    margin: 25px;
+    width: 350px;
+    height: 765px;
+}
+
+hr {
+    margin: 0 20px;
+}
+
+p {
+    padding: 0 20px;
+}
+
+p, h2, a {
+    font-family: "Chakra Petch", sans-serif;
 }
 
 footer {
     background-color: lightgray;
 }
 
-@media screen and (min-width: px) {
-
+footer div {
+    text-align: center;
+    padding: 10px 0px;
 }
 
-@media screen and (min-width: px) {
+@media screen and (min-width: 1000px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
 
+@media screen and (min-width: 1400px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
