@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Josefin+Sans&display=swap');
+
+body {
+    background-color: #F6F8EA;
+}
+
+h1 {
+    background-color: #475B63;
+    color: #F6F8EA;
+    font-family: 'Josefin Sans', 'Gill Sans', sans-serif;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 4em
+}
+
+nav {
+    background-color: #551B14;
+    height: 300px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16pt;
+    color: #F6F8EA;
+    padding: 10px auto;
+    display: block;
+    line-height: 100px;
+}
+
+nav a:hover {
+    background-color: #EF5B22;
+}
+
+main {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    font-size: 14pt;
+}
+
+h2 {
+    font-family: 'Josefin Sans', 'Gill Sans', sans-serif;
+    grid-column: 2/3;
+    color: #EF5B22;
+    margin: 5px auto
+}
+
+h3 {
+    font-family: 'Josefin Sans', 'Gill Sans', sans-serif;
+    grid-column: 2/3;
+    color: #EF5B22;
+    margin: 5px auto;
+}
+
+p {
+    font-family: Bitter, sans-serif;
+    grid-column: 2/3;
+    color: #475B63;
+    margin: 5px auto;
+}
+
+hr {
+    width: 80%;
+    height: 3px;
+    grid-column: 1/4;
+    background-color: #551B14;
+}
+
+img {
+    grid-column: 2/3;
+    margin: 30px auto;
+}
+
+#logo {
+    border: 3px solid #551B14;
+}
+
+ol {
+    grid-column: 2/3;
+    text-align: left;
+}
+
+table {
+    grid-column: 2/3;
+    width: 90%;
+    margin: 40px auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-family: Bitter, sans-serif;
+}
+
+tr td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.tablehead {
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+#flame {
+    background-color: #EF5B22;
+}
+
+#ivory {
+    background-color: #F6F8EA;
+}
+
+#space {
+    background-color: #475B63;
+    color: #F6F8EA;
+}
+
+#caput {
+    background-color: #551B14;
+    color: #F6F8EA;
+}
+
+@media screen and (min-width:600px){
+    nav {
+        height: 100px;
+    }
+    
+    nav ul {
+        display:flex;
+        justify-content: space-evenly;
+    }
+    
+    nav ul li {
+        width: 33%;
+    }
+
+}
