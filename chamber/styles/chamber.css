@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Josefin+Sans&display=swap');
+
+header {
+    background-color: #475B63;
+}
+
+#logo {
+    margin: 5px;
+    min-width: 90px;
+    max-width: 200px;
+    width: 25%;
+}
+
+main div {
+    background-color: lightgrey;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+    height: 100px;
+}
+
+#spotlights {
+    height: 255px;
+}
+
+#spotlight3, #join {
+    display: none;
+}
+
+footer {
+    background-color: #475B63;
+}
