@@ -23,16 +23,14 @@ nav {
     grid-column: 3/4;
     align-items: center;
 }
-
-a {
-    color: #F6F8EA;
-}
-
+    
 nav a {
     display: none;
     padding: 20px;
     font-size: 1em;
     text-decoration: none;
+    color: #F6F8EA;
+    position: relative;
 }
 
 nav a:first-child {
@@ -42,6 +40,11 @@ nav a:first-child {
     margin: 10px;
     text-align: center;
     align-self: center;
+}
+
+nav a:hover {
+    background-color: #F6F8EA;
+    color: #551B14;
 }
 
 .responsive a {
@@ -84,13 +87,39 @@ nav a:first-child {
     background-color: #EF5B22;
 }
 
-#hero img {
+main div {
+    margin: 10px;
+    background-color: #551B14;
+}
+
+main h1 {
+    font-size: 20pt;
+}
+
+#join a {
+    text-decoration: none;
+    display: block;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 40px;
+    font-size: 20pt;
+    text-align: center;
+    color: #F6F8EA;
+    background-color: #EF5B22;
+}
+
+#hero {
     width: 100%;
-    margin: 0;
+    margin: 0 auto 10px auto;
 }
 
 #spotlights {
     height: 460px;
+    padding: 10px;
+}
+
+#spotlights div {
+    border: 1px solid #F6F8EA;
 }
 
 #spotlight3, #join {
@@ -122,45 +151,46 @@ footer img {
 
 #bottom {
     text-align: center;
+    padding: 5px;
 }
 
 @media screen and (min-width: 600px) {
     nav a {
         font-size: 2vw;
     }
-
+    
     #title1 {
         margin-top: 50px;
         font-size: 4vw;
     }
-
+    
     #title2 {
         font-size: 2.5vw;
     }
-
+    
     main {
         display: grid;
         grid-template-columns: 3fr 2fr;
     }
-
+    
     #hero, #news, #spotlights, #join {
         grid-column: 1/3;
     }
-
+    
     #news {
         grid-row: 2/3;
     }
-
+    
     #spotlights {
         grid-row: 3/4;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-
+    
     #spotlight1, #spotlight2 {
         height: 93%;
     }
-
+    
     #join {
         display: block;
         grid-row: 4/5;
@@ -202,13 +232,16 @@ footer img {
     }
 
     #event, #weather, #join, #news {
-        height: 250px
+        height: 250px;
     }
 
     #hero {
         grid-column: 2/3;
         grid-row: 1/3;
-        height: 532px;
+        margin: 10px;
+        width: 50vw;
+        height: 50vw;
+        object-fit: fill;
     }
 
     #news {
@@ -222,7 +255,7 @@ footer img {
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-columns: 1fr;
-        height: 814px;
+        height: 75vw;
     }
 
     #spotlight1 {
