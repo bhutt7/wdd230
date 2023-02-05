@@ -2,12 +2,16 @@
 
 body {
     font-family: Bitter, sans-serif;
-    color: #475B63;
+    color: #F6F8EA;
     background-color: #F6F8EA;
 }
 
 h1, h2, nav {
     font-family: 'Josefin Sans', 'Gill Sans', sans-serif;
+}
+
+h1, h2 {
+    color: #EF5B22;
 }
 
 header {
@@ -61,11 +65,15 @@ nav a:hover {
 #title1 {
     font-size: 2em;
     margin-bottom: 0;
+    color: #F6F8EA;
+
 }
 
 #title2 {
     font-size: 1em;
     margin-top: 5px;
+    color: #F6F8EA;
+
 }
 
 #date {
@@ -89,6 +97,8 @@ nav a:hover {
 
 main div {
     margin: 10px;
+    padding: 15px;
+    text-align: center;
     background-color: #551B14;
 }
 
@@ -96,7 +106,36 @@ main h1 {
     font-size: 20pt;
 }
 
+main section {
+    position: relative;
+}
+
+main section h1 {
+    position: absolute;
+    left: 40px;
+    color: #551B14;
+    background-color: #EF5B22;
+    padding: 10px 10px 5px 10px;
+    border-radius: 10px;
+    font-size: 26pt;
+}
+
+main section a {
+    font-family: 'Josefin Sans', 'Gill Sans', sans-serif;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 20pt;
+    text-align: center;
+    color: #EF5B22;
+    background-color: #551B14;
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+}
+
 #join a {
+    font-family: 'Josefin Sans', 'Gill Sans', sans-serif;
     text-decoration: none;
     display: block;
     margin: 30px;
@@ -108,13 +147,24 @@ main h1 {
     background-color: #EF5B22;
 }
 
-#hero {
+#hero-small {
     width: 100%;
     margin: 0 auto 10px auto;
 }
 
+#hero-large {
+    display: none;
+}
+
+#weather b {
+    font-size: 30pt;
+}
+
+#weather img {
+    width: 30%;
+}
+
 #spotlights {
-    height: 460px;
     padding: 10px;
 }
 
@@ -145,6 +195,11 @@ footer img {
     margin: 20px;
 }
 
+footer a {
+    color: #F6F8EA;
+    text-decoration: none;
+}
+
 #contact {
     grid-column: 1/3;
 }
@@ -173,7 +228,7 @@ footer img {
         grid-template-columns: 3fr 2fr;
     }
     
-    #hero, #news, #spotlights, #join {
+    main section, #news, #spotlights, #join {
         grid-column: 1/3;
     }
     
@@ -185,10 +240,6 @@ footer img {
         grid-row: 3/4;
         display: grid;
         grid-template-columns: 1fr 1fr;
-    }
-    
-    #spotlight1, #spotlight2 {
-        height: 93%;
     }
     
     #join {
@@ -205,7 +256,7 @@ footer img {
         grid-row: 5/6;
     }
 
-    section {
+    footer section {
         grid-template-columns: 1fr 3fr 3fr;
     }
 
@@ -231,17 +282,20 @@ footer img {
         grid-template-columns: 1fr 2fr 1fr;
     }
 
-    #event, #weather, #join, #news {
-        height: 250px;
-    }
-
-    #hero {
+    main section {
         grid-column: 2/3;
         grid-row: 1/3;
+    }
+
+    #hero-large {
+        display: block;
         margin: 10px;
         width: 50vw;
-        height: 50vw;
-        object-fit: fill;
+        height: 97.25%;
+    }
+
+    #hero-small {
+        display: none;
     }
 
     #news {
@@ -252,28 +306,11 @@ footer img {
     #spotlights {
         grid-column: 3/4;
         grid-row: 1/4;
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-columns: 1fr;
-        height: 75vw;
-    }
-
-    #spotlight1 {
-        grid-row: 1/2;
-    }
-    
-    #spotlight2 {
-        grid-row: 2/3;
+        display: block;
     }
 
     #spotlight3 {
         display: block;
-        grid-row: 3/4;
-    }
-
-    #spotlight1, #spotlight2, #spotlight3 {
-        width: 90%;
-        height: 88%;
     }
 
     #join {
