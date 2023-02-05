@@ -6,6 +6,10 @@ body {
     background-color: #F6F8EA;
 }
 
+h1, h2, nav {
+    font-family: 'Josefin Sans', 'Gill Sans', sans-serif;
+}
+
 header {
     background-color: #475B63;
     display: grid;
@@ -70,10 +74,14 @@ nav a:first-child {
     border: 2px solid #F6F8EA;
 }
 
-main div {
-    background-color: lightgrey;
-    border: 1px solid black;
-    margin: 5px;
+#banner {
+    display: none;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16pt;
+    color: #551B14;
+    background-color: #EF5B22;
 }
 
 #hero img {

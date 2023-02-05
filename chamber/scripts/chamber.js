@@ -22,3 +22,8 @@ hambutton.addEventListener('click', () => {
 let moddate = document.lastModified;
 
 document.querySelector('#bottom').innerHTML = `&copy ${year} | Braden Huttash | WDD 230 Project | Last Modification: ${moddate}`;
+
+// Invitation banner for meet and greet
+if (date.getDay() == 1 || date.getDay() == 2) {
+    document.getElementById('banner').style.display = 'block';
+}
