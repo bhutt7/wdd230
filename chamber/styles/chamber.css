@@ -176,6 +176,10 @@ main section a {
     display: none;
 }
 
+.spotImg {
+    width: 100px;
+}
+
 footer {
     background-color: #475B63;
     color: #F6F8EA;
