@@ -32,8 +32,13 @@
         <section>
             <h1>Welcome</h1>
             <a href="#">Join the Chamber</a>
-            <img src="images/hero-full.jpg" alt="winding river hero image" id="hero-small">
-            <img src="images/hero-square.jpg" alt="winding river hero image" id="hero-large">
+            <picture>
+                <source srcset="images/wdd230-org-medium.webp" media="(min-width: 600px) and (max-width=999px)">
+                <source srcset="images/wdd230-org-large.webp" media="min-width: 1000px">
+                <img id="hero" src="images/wdd230-org-small.webp" alt="temporary hero image with small written on it">
+            </picture>
+            <!-- <img src="images/hero-full.jpg" alt="winding river hero image" id="hero-small">
+            <img src="images/hero-square.jpg" alt="winding river hero image" id="hero-large"> -->
         </section>
         <div id="event">
             <h1>Grand Opening</h1>
@@ -72,7 +77,7 @@
             <div id="spotlight3">
                 <h1>Daycare Delight</h1>
                 <img src="images/slide.webp" alt="slide" class="spotImg"><br>
-                <i>Super busy? Need someone to watch your kids? Delilah from Daycare Delight has your back!</i>
+                <i>"Daycare with those who care!"</i>
                 <hr>
                 <p>contact@dcdelight.com</p>
                 <p>(208) 292-9292 | Website</p>
