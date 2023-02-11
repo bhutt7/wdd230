@@ -13,4 +13,4 @@ if (temp <= 50) {
 }
 
 // Push wind chill value to span in document
-document.getElementById('chill').textContent = chill + ' °F';
+document.getElementById('chill').textContent = chill;
