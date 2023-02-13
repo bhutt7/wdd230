@@ -8,7 +8,7 @@ let num = date.getDate();
 let month = months[date.getMonth()];
 let year = date.getFullYear();
 
-document.querySelector('#date').textContent = `${day}, ${num} ${month} ${year}`;
+document.querySelector('.date').textContent = `${day}, ${num} ${month} ${year}`;
 
 // Hamburger Button
 const mainnav = document.querySelector('nav');
@@ -21,7 +21,7 @@ hambutton.addEventListener('click', () => {
 // Footer info
 let moddate = document.lastModified;
 
-document.querySelector('#bottom').innerHTML = `&copy ${year} | Braden Huttash | WDD 230 Project | Last Modification: ${moddate}`;
+document.querySelector('.bottom').innerHTML = `&copy ${year} | Braden Huttash | WDD 230 Project | Last Modification: ${moddate}`;
 
 // Invitation banner for meet and greet
 if (date.getDay() == 1 || date.getDay() == 2) {
