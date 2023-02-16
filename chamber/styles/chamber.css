@@ -148,11 +148,11 @@ nav a:hover {
 }
 
 #hero {
-/* #hero-small { */
-    width: 100%;
-    margin: 0 auto 10px auto;
-}
-
+    /* #hero-small { */
+        width: 100%;
+        margin: 0 auto 10px auto;
+    }
+    
 #hero-large {
     display: none;
 }
@@ -179,6 +179,27 @@ nav a:hover {
 
 .spotImg {
     width: 30%;
+}
+
+#disc-main {
+    color: #551B14;
+    text-align: center;
+}
+
+#disc-main picture img {
+    margin: 40px auto 0 auto;
+}
+
+#disc-main p {
+    padding: 0 20px;
+}
+
+#lastVisit {
+    background-color: #EF5B22;
+    color: #551B14;
+    padding: 15px;
+    margin-bottom: 0;
+    text-align: center;
 }
 
 footer {
@@ -214,7 +235,7 @@ footer a {
     padding: 5px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
     nav a {
         font-size: 2vw;
     }
@@ -251,16 +272,25 @@ footer a {
         display: block;
         grid-row: 4/5;
     }
-
+    
     #event {
         grid-row: 5/6;
         grid-column: 1/2;
     }
-
+    
     #weather {
         grid-row: 5/6;
     }
+    
+    #disc-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
+    #disc-main img:hover {
+        border-radius: 50px;
+    }
+    
     footer section {
         grid-template-columns: 1fr 3fr 3fr;
     }
@@ -334,5 +364,9 @@ footer a {
     #weather {
         grid-row: 2/3;
         grid-column: 1/2;
+    }
+
+    #disc-main {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
