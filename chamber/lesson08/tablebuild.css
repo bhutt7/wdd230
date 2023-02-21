@@ -1,0 +1,29 @@
+table {
+    text-align: center;
+    caption-side: bottom;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid forestgreen;
+    padding: 15px;
+}
+
+tbody th, tbody td{
+    border: 1px solid lightgray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+thead {
+    background-color: forestgreen;
+    color: white;
+}
+
+.category {
+    background-color: teal;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #eeeeee;
+}
