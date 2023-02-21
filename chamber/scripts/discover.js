@@ -38,6 +38,6 @@ if (!localStorage.getItem('lastVisit')) {
     let currentDate = Date.now();
     let lastDate = localStorage.getItem('lastVisit');
     let daysSince = (currentDate - lastDate) / 1000 / 60 / 60 / 24;
-    document.getElementById('days').textContent = Math.floor(daysSince);
+    document.getElementById('days').textContent = Math.round(daysSince);
     localStorage.setItem('lastVisit', currentDate);
 }
