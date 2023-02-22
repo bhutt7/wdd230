@@ -235,6 +235,12 @@ footer a {
     padding: 5px;
 }
 
+#thanks {
+    color: #551B14;
+    text-align: center;
+    margin: 50px;
+}
+
 @media screen and (min-width: 650px) {
     nav a {
         font-size: 2vw;
