@@ -202,6 +202,23 @@ nav a:hover {
     text-align: center;
 }
 
+#join-main form {
+    background-color: #551B14;
+    padding: 15px;
+}
+
+#join-main input, #join-main label {
+    display: block;
+}
+
+#join-main label {
+    margin-top: 20px;
+}
+
+#join-main input {
+    height: 40px;
+}
+
 footer {
     background-color: #475B63;
     color: #F6F8EA;

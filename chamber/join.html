@@ -27,8 +27,27 @@
         </nav>
         <div class="date"></div>
     </header>
+    <h1>Join the Star Chamber</h1>
     <main id="join-main">
-
+        <form method="get" action="thankyou.html">
+            <label for="fname">First Name *:</label>
+            <input id="fname" name="firstName" type="text" required>
+            <label for="lname">Last Name *:</label>
+            <input id="lname" name="lastName" type="text"required>
+            <label for="title">Business Position Title *:</label>
+            <input id="title" name="positionTitle" type="text" pattern="[A-Za-z -]+" minlength="7" required>
+            <label for="email">Email Address *:</label>
+            <input id="email" name="email" type="email" placeholder="name@domain.com" required>
+            <label for="phone">Phone Number *:</label>
+            <input id="phone" name="phone" type="tel" placeholder="555-555-5555" required>
+            <label for="business">Business Name *:</label>
+            <input id="business" name="businessName" type="text">
+            <label for="membership">Enter your desired membership level</label>
+            <div id="radio">
+                <input id="membership" type="radio">
+            </div>
+            <input type="submit" value="Join the Chamber">
+        </form>
     </main>
     <footer>
         <section class="info">
