@@ -6,7 +6,7 @@ body {
     background-color: #F6F8EA;
 }
 
-h1, h2, nav {
+h1, h2, h3, nav {
     font-family: 'Josefin Sans', 'Gill Sans', sans-serif;
 }
 
@@ -202,21 +202,96 @@ nav a:hover {
     text-align: center;
 }
 
-#join-main form {
+#join-title {
+    text-align: center;
+    font-size: 3em;
+}
+
+#join-main {
     background-color: #551B14;
+}
+
+form, #benefits {
     padding: 15px;
 }
 
-#join-main input, #join-main label {
+form input, form label {
     display: block;
+    font-size: 1.5em;
 }
 
-#join-main label {
+form label {
     margin-top: 20px;
 }
 
-#join-main input {
+form input {
     height: 40px;
+}
+
+form input:required {
+    border-left: 6px solid red;
+}
+
+form input:required:valid {
+    border-left: 6px solid green
+}
+
+#radio {
+    display: grid;
+    grid-template-columns: 60px 150px;
+}
+
+input[type='radio'] {
+    height: 20px;
+}
+
+#radio label, #radio input {
+    margin: 10px;
+    align-self: center;
+}
+
+textarea {
+    height: 120px;
+}
+
+input, textarea {
+    margin-bottom: 20px;
+    width: 90%;
+    max-width: 600px;
+}
+
+input[type='submit'] {
+    height: 80px;
+    background-color: #EF5B22;
+    color: #551B14;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+input[type='submit']:hover {
+    background-color: #475B63;
+    color: #F6F8EA;
+}
+
+#join-main hr {
+    color: #F6F8EA;
+    width: 90%;
+}
+
+#benefits h2 {
+    color: #F6F8EA;
+    text-align: center;
+    font-size: 2.5em;
+    border: 3px solid #F6F8EA;
+    padding: 10px;
+}
+
+#benefits h3 {
+    font-size: 2em
+}
+
+#benefits li {
+    font-size: 1.2em;
 }
 
 footer {
@@ -254,6 +329,7 @@ footer a {
 
 #thanks {
     color: #551B14;
+    font-size: 34pt;
     text-align: center;
     margin: 50px;
 }
@@ -391,5 +467,14 @@ footer a {
 
     #disc-main {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #join-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #join-main hr {
+        display: none;
     }
 }
