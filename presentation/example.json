@@ -1,0 +1,69 @@
+{
+    "courses": [
+        {
+            "name": "Database Design and Development",
+            "code": "CIT 225",
+            "credits": 3,
+            "professor": "Tanner Crook",
+            "classDays": null,
+            "classStart": null,
+            "classEnd": null,
+            "blockClass": false
+        },
+        {
+            "name": "Introduction to Programming",
+            "code": "CIT 160",
+            "credits": 3,
+            "professor": "Mark Olaveson",
+            "classDays": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+            ],
+            "classStart": "10:15pm",
+            "classEnd": "11:15pm",
+            "blockClass": false
+        },
+        {
+            "name": "Jesus Christ and the Everlasting Gospel",
+            "code": "REL 250C",
+            "credits": 2,
+            "professor": "Curtis Castillow",
+            "classDays": [
+                "Tuesday",
+                "Thursday"
+            ],
+            "classStart": "2:00pm",
+            "classEnd": "3:00pm",
+            "blockClass": false
+        },
+        {
+            "name": "Visual Media",
+            "code": "COMM 130",
+            "credits": 3,
+            "professor": "Emily Russell",
+            "classDays": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+            ],
+            "classStart": "8:00am",
+            "classEnd": "9:30am",
+            "blockClass": false
+        },
+        {
+            "name": "Web Frontend Development I",
+            "code": "WDD 230",
+            "credits": 3,
+            "professor": "Julie Anderson",
+            "classDays": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+            ],
+            "classStart": "12:45pm",
+            "classEnd": "1:45pm",
+            "blockClass": false
+        }
+    ]
+}
