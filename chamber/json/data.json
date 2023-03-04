@@ -6,7 +6,7 @@
             "address2": "Star, Id 83669",
             "phone": "(208) 286-0957",
             "website": "rushmovers.com",
-            "logo": "https://bhutt7.github.io/wdd230/chamber/images/rush-movers.webp",
+            "logo": "https://bhutt7.github.io/wdd230/chamber/images/logos/rush-movers.webp",
             "membership": "Silver"
         },
         {
@@ -15,7 +15,7 @@
             "address2": "Star, Id 83669",
             "phone": "(208) 368-3257",
             "website": "tttacos.com",
-            "logo": "https://bhutt7.github.io/wdd230/chamber/images/tiny-tims-tacos.webp",
+            "logo": "https://bhutt7.github.io/wdd230/chamber/images/logos/tiny-tims-tacos.webp",
             "membership": "Bronze"
         },
         {
@@ -24,7 +24,7 @@
             "address2": "Star, Id 83669",
             "phone": "(208) 729-1392",
             "website": "stringsof.com",
-            "logo": "https://bhutt7.github.io/wdd230/chamber/images/strings-of-fate.webp",
+            "logo": "https://bhutt7.github.io/wdd230/chamber/images/logos/strings-of-fate.webp",
             "membership": "Bronze"
         },
         {
@@ -33,7 +33,7 @@
             "address2": "Star, Id 83669",
             "phone": "(208) 515-3057",
             "website": "dcdelight.com",
-            "logo": "https://bhutt7.github.io/wdd230/chamber/images/daycare-delight.webp",
+            "logo": "https://bhutt7.github.io/wdd230/chamber/images/logos/daycare-delight.webp",
             "membership": "Silver"
         },
         {
@@ -42,7 +42,7 @@
             "address2": "Star, Id 83669",
             "phone": "(208) 803-7905",
             "website": "breakfastia.com",
-            "logo": "https://bhutt7.github.io/wdd230/chamber/images/breakfastia.webp",
+            "logo": "https://bhutt7.github.io/wdd230/chamber/images/logos/breakfastia.webp",
             "membership": "Bronze"
         },
         {
@@ -51,7 +51,7 @@
             "address2": "Star, Id 83669",
             "phone": "(208) 352-4777",
             "website": "cleanzilla.com",
-            "logo": "https://bhutt7.github.io/wdd230/chamber/images/cleanzilla.webp",
+            "logo": "https://bhutt7.github.io/wdd230/chamber/images/logos/cleanzilla.webp",
             "membership": "Silver"
         },
         {
@@ -60,7 +60,7 @@
             "address2": "Star, Id 83669",
             "phone": "(208) 775-0125",
             "website": "franksfries.com",
-            "logo": "https://bhutt7.github.io/wdd230/chamber/images/franks-fries.webp",
+            "logo": "https://bhutt7.github.io/wdd230/chamber/images/logos/franks-fries.webp",
             "membership": "Bronze"
         },
         {
@@ -69,7 +69,7 @@
             "address2": "Star, Id 83669",
             "phone": "(208) 297-6190",
             "website": "foodhaven.com",
-            "logo": "https://bhutt7.github.io/wdd230/chamber/images/food-haven.webp",
+            "logo": "https://bhutt7.github.io/wdd230/chamber/images/logos/food-haven.webp",
             "membership": "NP"
         },
         {
@@ -78,7 +78,7 @@
             "address2": "Star, Id 83669",
             "phone": "(208) 235-0503",
             "website": "omnigrocer.com",
-            "logo": "https://bhutt7.github.io/wdd230/chamber/images/omnigrocer.webp",
+            "logo": "https://bhutt7.github.io/wdd230/chamber/images/logos/omnigrocer.webp",
             "membership": "Gold"
         }
     ]
