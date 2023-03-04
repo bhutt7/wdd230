@@ -2,8 +2,7 @@
     "businesses": [
         {
             "name": "Rush Movers",
-            "address1": "4987 Fantages Way",
-            "address2": "Star, Id 83669",
+            "address": "4987 Fantages Way Star, Id 83669",
             "phone": "(208) 286-0957",
             "website": "rushmovers.com",
             "logo": "https://bhutt7.github.io/wdd230/chamber/images/logos/rush-movers.webp",
@@ -11,8 +10,7 @@
         },
         {
             "name": "Tiny Tim's Tacos",
-            "address1": "3779 Clement Street",
-            "address2": "Star, Id 83669",
+            "address": "3779 Clement Street Star, Id 83669",
             "phone": "(208) 368-3257",
             "website": "tttacos.com",
             "logo": "https://bhutt7.github.io/wdd230/chamber/images/logos/tiny-tims-tacos.webp",
@@ -20,8 +18,7 @@
         },
         {
             "name": "Strings of Fate",
-            "address1": "974 Spruce Drive",
-            "address2": "Star, Id 83669",
+            "address": "974 Spruce Drive Star, Id 83669",
             "phone": "(208) 729-1392",
             "website": "stringsof.com",
             "logo": "https://bhutt7.github.io/wdd230/chamber/images/logos/strings-of-fate.webp",
@@ -29,8 +26,7 @@
         },
         {
             "name": "Daycare Delight",
-            "address1": "3008 White Oak Drive",
-            "address2": "Star, Id 83669",
+            "address": "3008 White Oak Drive Star, Id 83669",
             "phone": "(208) 515-3057",
             "website": "dcdelight.com",
             "logo": "https://bhutt7.github.io/wdd230/chamber/images/logos/daycare-delight.webp",
@@ -38,8 +34,7 @@
         },
         {
             "name": "Breakfastia",
-            "address1": "2522 Philadelphia Avenue",
-            "address2": "Star, Id 83669",
+            "address": "2522 Philadelphia Avenue Star, Id 83669",
             "phone": "(208) 803-7905",
             "website": "breakfastia.com",
             "logo": "https://bhutt7.github.io/wdd230/chamber/images/logos/breakfastia.webp",
@@ -47,8 +42,7 @@
         },
         {
             "name": "Cleanzilla",
-            "address1": "1417 Diamond Street",
-            "address2": "Star, Id 83669",
+            "address": "1417 Diamond Street Star, Id 83669",
             "phone": "(208) 352-4777",
             "website": "cleanzilla.com",
             "logo": "https://bhutt7.github.io/wdd230/chamber/images/logos/cleanzilla.webp",
@@ -56,8 +50,7 @@
         },
         {
             "name": "Frank's Fries",
-            "address1": "2449 Rodney Street",
-            "address2": "Star, Id 83669",
+            "address": "2449 Rodney Street Star, Id 83669",
             "phone": "(208) 775-0125",
             "website": "franksfries.com",
             "logo": "https://bhutt7.github.io/wdd230/chamber/images/logos/franks-fries.webp",
@@ -65,8 +58,7 @@
         },
         {
             "name": "Food Haven",
-            "address1": "556 Gladwell Street",
-            "address2": "Star, Id 83669",
+            "address": "556 Gladwell Street Star, Id 83669",
             "phone": "(208) 297-6190",
             "website": "foodhaven.com",
             "logo": "https://bhutt7.github.io/wdd230/chamber/images/logos/food-haven.webp",
@@ -74,8 +66,7 @@
         },
         {
             "name": "OmniGrocer",
-            "address1": "1383 Sycamore Fork Road",
-            "address2": "Star, Id 83669",
+            "address": "1383 Sycamore Fork Road Star, Id 83669",
             "phone": "(208) 235-0503",
             "website": "omnigrocer.com",
             "logo": "https://bhutt7.github.io/wdd230/chamber/images/logos/omnigrocer.webp",

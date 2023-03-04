@@ -8,12 +8,22 @@ async function getBusinessData() {
     businessList(data.businesses);
 }
 
-function businessCards(business) {
-    let card = document.createElement('section');
-    let logo = document.createElement('img');
-    let name = document.createElement('h2');
-    let bday = document.createElement('h3');
-    let birthplace = document.createElement('h3');
+function businessCards(businesses) {
+    const cards = document.getElementById('cards');
+
+    businesses.forEach((business) => {
+        let card = document.createElement('section');
+        let logo = document.createElement('img');
+        let address = document.createElement('p');
+        let phone = document.createElement('p');
+        let website = document.createElement('a');
+
+        logo.setAttribute('src', business.logo);
+        logo.setAttribute('alt', `Logo for ${business.name}`);
+        portrait.setAttribute('loading', 'lazy');
+
+        address.textContent = business.address;
+    })
 }
 
 function businessList(business) {
