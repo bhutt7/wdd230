@@ -294,6 +294,44 @@ input[type='submit']:hover {
     font-size: 1.2em;
 }
 
+.viewswap {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.viewswap div {
+    margin: 30px;
+    width: 50px;
+    height: 50px;
+    display: inline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid #475B63;
+}
+
+.viewswap img {
+    width: 50px;
+}
+
+#cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#cards section {
+    margin: 10px;
+    color: #551B14;
+    border: 1px solid #475B63;
+}
+
+#cards img {
+    width: 40%;
+}
+
 footer {
     background-color: #475B63;
     color: #F6F8EA;

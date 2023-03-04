@@ -9,7 +9,6 @@ let month = months[date.getMonth()];
 let year = date.getFullYear();
 
 document.querySelector('.date').textContent = `${day}, ${num} ${month} ${year}`;
-document.querySelector('#date').textContent = `${day}, ${num} ${month} ${year}`;
 
 // Hamburger Button
 const mainnav = document.querySelector('nav');
