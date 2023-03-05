@@ -9,7 +9,7 @@ async function getBusinessData() {
 }
 
 function businessCards(businesses) {
-    const cards = document.getElementById('cards');
+    const cards = document.querySelector('.cards');
 
     businesses.forEach((business) => {
         let card = document.createElement('section');
@@ -17,7 +17,7 @@ function businessCards(businesses) {
         let name = document.createElement('h2');
         let address = document.createElement('p');
         let phone = document.createElement('p');
-        let website = document.createElement('a');
+        let website = document.createElement('p');
 
         logo.setAttribute('src', business.logo);
         logo.setAttribute('alt', `Logo for ${business.name}`);
@@ -39,7 +39,7 @@ function businessCards(businesses) {
 }
 
 function businessList(businesses) {
-    const list = document.getElementById('list');
+    const list = document.querySelector('.list');
 
     businesses.forEach((business) => {
         let tr = document.createElement('tr');
@@ -63,3 +63,27 @@ function businessList(businesses) {
 }
 
 getBusinessData();
+
+document.querySelector('.list').classList.add('notInView');
+
+document.querySelector('#viewCards').addEventListener('click', () => {
+    let newView = document.querySelector('.cards');
+    let oldView = document.querySelector('.list');
+    if ('notInView' in newView.classList) {
+        return;
+    } else {
+        oldView.classList.add('notInView');
+        newView.classList.remove('notInView');
+    }
+})
+
+document.querySelector('#viewList').addEventListener('click', () => {
+    let newView = document.querySelector('.list');
+    let oldView = document.querySelector('.cards');
+    if ('notInView' in newView.classList) {
+        return;
+    } else {
+        oldView.classList.add('notInView');
+        newView.classList.remove('notInView');
+    }
+})
