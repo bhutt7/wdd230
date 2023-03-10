@@ -5,7 +5,7 @@ const getWeather = async () => {
     const data = await response.json();
     console.log(data);
 
-    let temp = data.currentConditions.temp;
+    let temp = Math.round(data.currentConditions.temp);
     document.querySelector('#temp').textContent = temp;
     let image = `https://raw.githubusercontent.com/visualcrossing/WeatherIcons/main/SVG/1st%20Set%20-%20Color/${data.currentConditions.icon}.svg`;
     let speed = data.currentConditions.windspeed;

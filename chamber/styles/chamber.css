@@ -96,7 +96,7 @@ nav a:hover {
 }
 
 #home-main div {
-    margin: 10px;
+    margin: 5px;
     padding: 15px;
     text-align: center;
     background-color: #475B63;
@@ -148,32 +148,28 @@ nav a:hover {
 }
 
 #hero {
-    /* #hero-small { */
-        width: 100%;
-        margin: 0 auto 10px auto;
-    }
-    
-#hero-large {
-    display: none;
+    width: 100%;
+    margin: 0 auto 10px auto;
 }
 
 #weather div {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
 #weather b {
-    font-size: 30pt;
+    font-size: 20pt;
 }
 
 #condition {
-    font-size: 20pt;
+    font-size: 16pt;
     font-weight: bold;
 }
 
 #weather img {
     width: 30%;
+    min-width: 50px;
 }
 
 #spotlights {
@@ -511,16 +507,11 @@ footer a {
     }
 
     #hero {
-    /* #hero-large { */
         display: block;
-        margin: 10px;
+        margin: 5px;
         width: 50vw;
-        height: 97.35%;
+        height: 98.5%;
         object-fit: cover;
-    }
-
-    #hero-small {
-        display: none;
     }
 
     #news {
