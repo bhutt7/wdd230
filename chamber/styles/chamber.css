@@ -324,6 +324,10 @@ input[type='submit']:hover {
     width: 50px;
 }
 
+.viewswap div:hover {
+    filter: invert(.60);
+}
+
 .cards {
     display: grid;
     grid-template-columns: 1fr;
