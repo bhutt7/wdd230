@@ -26,6 +26,7 @@ nav {
     flex-direction: column;
     grid-column: 3/4;
     align-items: center;
+    margin-right: 15px;
 }
     
 nav a {
@@ -349,11 +350,8 @@ input[type='submit']:hover {
 .list {
     color: #551B14;
     border-collapse: collapse;
-    margin-bottom: 50px; 
-}
-
-.list {
-    width: 100%;
+    margin: 0 auto 50px auto;
+    width: 90%;
 }
 
 .list tr {
