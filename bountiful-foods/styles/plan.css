@@ -25,30 +25,20 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    font-size: 16pt;
+    font-size: 14pt;
     color: #F6F8EA;
-    padding: 10px auto;
-    display: none;
-    line-height: 100px;
+    padding: 15px;
+    display: block;
 }
 
 nav a:hover {
     background-color: #EF5B22;
 }
 
-nav a:first-child {
-    display:block;
-    text-decoration: none;
-}
-
-.responsive a {
-    display: block;
-}
-
 main {
     text-align: center;
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
     font-size: 14pt;
 }
 
@@ -84,11 +74,6 @@ hr {
     background-color: #551B14;
 }
 
-ol {
-    grid-column: 2/3;
-    text-align: left;
-}
-
 table {
     grid-column: 2/3;
     width: 90%;
@@ -109,25 +94,10 @@ tr td {
 }
 
 @media screen and (min-width:750px){
-    nav {
-        height: 100px;
-    }
-    
+        
     nav ul {
         display:flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-    }
-
-    nav a:first-child {
-        display: none;
-    }
-
-    nav a {
-        display: block;
-    }
-
-    nav {
-        flex-direction: row;
     }
 }
