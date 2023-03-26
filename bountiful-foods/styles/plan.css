@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lemonada:wght@300&display=swap');
 
 h1 {
-    background-color: #475B63;
-    color: #F6F8EA;
-    font-family: 'Josefin Sans', 'Gill Sans', sans-serif;
+    background-color: #443850;
+    color: #6CD4FF;
+    font-family: Lemonada, 'Gill Sans', sans-serif;
     padding: 10px;
     margin: 10px auto;
     text-align: center;
-    font-size: 4em
+    font-size: 4em;
 }
 
 nav {
-    background-color: #551B14;
+    background-color: #97EF5C;
     display: flex;
     flex-direction: column;
-    position: relative;
+    font-family: Arvo, sans-serif;
 }
 
 nav ul {
@@ -26,13 +26,18 @@ nav ul {
 nav ul li a {
     text-decoration: none;
     font-size: 14pt;
-    color: #F6F8EA;
+    color: #443850;
     padding: 15px;
     display: block;
 }
 
 nav a:hover {
-    background-color: #EF5B22;
+    background-color: #443850;
+    color: #6CD4FF;
+}
+
+body {
+    background-color: #FFDAD5;
 }
 
 main {
@@ -42,28 +47,32 @@ main {
     font-size: 14pt;
 }
 
+#logo {
+    width: 50%;
+}
+
 section {
     grid-column: 2/3;
 }
 
 h2 {
-    font-family: 'Josefin Sans', 'Gill Sans', sans-serif;
+    font-family: Lemonada, 'Gill Sans', sans-serif;
     grid-column: 2/3;
-    color: #EF5B22;
-    margin: 5px auto
+    color: #A35336;
+    margin: 15px auto;
 }
 
 h3 {
-    font-family: 'Josefin Sans', 'Gill Sans', sans-serif;
+    font-family: Lemonada, 'Gill Sans', sans-serif;
     grid-column: 2/3;
-    color: #EF5B22;
-    margin: 5px auto;
+    color: #A35336;
+    margin: 15px auto;
 }
 
 p {
-    font-family: Bitter, sans-serif;
+    font-family: Arvo, sans-serif;
     grid-column: 2/3;
-    color: #475B63;
+    color: #A35336;
     margin: 5px auto;
 }
 
@@ -71,16 +80,37 @@ hr {
     width: 80%;
     height: 3px;
     grid-column: 1/4;
-    background-color: #551B14;
+    background-color: #97EF5C;
+    margin: 30px auto
 }
 
 table {
     grid-column: 2/3;
-    width: 90%;
+    width: 60%;
     margin: 40px auto;
     border: 2px solid black;
     border-collapse: collapse;
-    font-family: Bitter, sans-serif;
+    font-family: Arvo, sans-serif;
+}
+
+#color1 {
+    background-color: #FFDAD5;
+}
+
+#color2 {
+    background-color: #A35336;
+}
+
+#color3 {
+    background-color: #443850;
+}
+
+#color4 {
+    background-color: #6CD4FF;
+}
+
+#color5 {
+    background-color: #97EF5C;
 }
 
 tr td {
@@ -88,9 +118,18 @@ tr td {
     padding: 5px;
 }
 
-.tablehead {
+thead {
     font-weight: bold;
-    border: 2px solid black;
+}
+
+#map img {
+    width: 40%;
+}
+
+#frames img {
+    max-height: 300px;
+    border: 1px solid black;
+    margin-bottom: 35px;
 }
 
 @media screen and (min-width:750px){
