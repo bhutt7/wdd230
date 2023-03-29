@@ -1,10 +1,76 @@
 /* Common Elements */
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lemonada:wght@300&display=swap');
 
+body {
+    font-family: Arvo, Arial, Helvetica, sans-serif;
+    background-color: #FFDAD5;
+}
 
+header, footer {
+    background-color: #443850;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 3fr 5fr 2fr;
+    font-family: Lemonada, Georgia, 'Times New Roman', Times, serif;
+}
+
+header img {
+    width: 80%;
+    margin: 10%;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    display: none;
+    padding: 20px;
+    font-size: 1em;
+    text-decoration: none;
+    color: #6CD4FF;
+}
+
+nav a:first-child {
+    display: block;
+    font-size: 1.5em;
+    border: 1px solid #6CD4FF;
+    margin: 10px;
+    text-align: center;
+    align-self: center;
+}
+
+nav a:hover {
+    background-color: #6CD4FF;
+    color: #443850;
+}
+
+.responsive a {
+    display: block;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#bottom-logo {
+    display: none;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 
 /* Homepage Elements */
-
+#hero-div {
+    font-family: Lemonada, Georgia, 'Times New Roman', Times, serif;
+}
 
 
 /* Fresh Page Elements */
@@ -17,10 +83,22 @@
 
 /* Medium Size */
 @media screen and (min-width: 650px) {
-
+    footer {
+        grid-template-columns: 4fr 3fr 5fr;
+    }
+    
+    #bottom-logo {
+        display: inline;
+    }
 }
 
 /* Large Size */
 @media screen and (min-width: 1000px) {
+    nav {
+        flex-direction: row;
+    }
     
+    #contact {
+        flex-direction: row;
+    }
 }
