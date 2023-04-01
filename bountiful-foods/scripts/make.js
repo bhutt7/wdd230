@@ -1,0 +1,1 @@
+document.getElementById('create').addEventListener('click', getFruitData);

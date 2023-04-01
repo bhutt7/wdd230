@@ -108,7 +108,7 @@ footer {
     flex-direction: column;
 }
 
-#form, #facts {
+#form, #drink {
     margin: 30px auto;
 }
 
@@ -126,6 +126,17 @@ form input, form textarea {
 
 #fruits label {
     padding: 5px;
+}
+
+#drink {
+    border: 3px dashed #A35336;
+    padding: 50px;
+    width: 180px;
+}
+
+#drink h3 {
+    text-decoration: underline;
+    text-align: center;
 }
 
 /* About Page Elements */
