@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles/main.css">
     <script defer src="scripts/main.js"></script>
     <script defer src="scripts/total.js"></script>
+    <script defer src="scripts/weather.js"></script>
 </head>
 <body>
     <header>
@@ -25,16 +26,38 @@
     <main id="home-main">
         <div id="hero-div">    
             <img src="images/fruit.webp" alt="basket full of variety fruits" id="hero">
+        </div>
+        <div class="home-div" id="summary">
+            <h2>Carlsbad</h2>
+            <p>Carlsbad, California is a beautiful coastal city in Southern California, not far from San Diego. It is known for beautiful beaches and the Flower Fields of Carlsbad Ranch. It is also home to Legoland California.</p>
+        </div>
+        <div class="home-div" id="drink-div">
+            <h2>Your Specialty Drink Total: <span id="drinks"></span></h2>
             <a href="fresh.html">Make your own fresh fruit drink!</a>
         </div>
-        <div>
-            <h2></h2>
-        </div>
-        <div>
-            <h2>Your Specialty Drink Total: <span id="drinks"></span></h2>
-        </div>
-        <div>
-            <h2></h2>
+        <div class="home-div" id="weather">
+            <h2>Carlsbad Weather</h2>
+            <section>   
+                <div id="conditions">
+                    <table>
+                        <tr>
+                            <td><span id="temp"></span> °F</td>
+                            <td id="humid"></td>
+                        </tr>
+                        <tr>
+                            <td id="desc" colspan="2"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="forecast">
+                    <h3>3-Day Forecast</h3>
+                    <ul>
+                        <li><span id="day1"></span> °F</li>
+                        <li><span id="day2"></span> °F</li>
+                        <li><span id="day3"></span> °F</li>
+                    </ul>
+                </div>
+            </section> 
         </div>
     </main>
     <footer>
@@ -45,10 +68,11 @@
             <p>(760)123-4567</p>
         </div>
         <div id="social">
-            <a href="#"><img class="icon" src="images/facebook.webp" alt="facebook icon"></a>
-            <a href="#"><img class="icon" src="images/insta.webp" alt="instagram icon"></a>
-            <a href="#"><img class="icon" src="images/twitter.webp" alt="twitter icon"></a>
+            <a href="https://www.facebook.com/"><img class="icon" src="images/facebook.webp" alt="facebook icon"></a>
+            <a href="https://www.instagram.com/"><img class="icon" src="images/insta.webp" alt="instagram icon"></a>
+            <a href="https://twitter.com/"><img class="icon" src="images/twitter.webp" alt="twitter icon"></a>
         </div>
+        <div class="bottom"></div>
     </footer>
 </body>
 </html>

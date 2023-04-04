@@ -111,3 +111,18 @@ function buildFacts(array) {
     output.appendChild(special);
     output.appendChild(nutrition);
 }
+
+// Hamburger Button
+const mainnav = document.querySelector('nav');
+const hambutton = document.querySelector('.ham');
+
+hambutton.addEventListener('click', () => {
+    mainnav.classList.toggle('responsive');
+})
+
+// Footer - Last Modification
+let date = new Date();
+let year = date.getFullYear();
+let moddate = document.lastModified;
+
+document.querySelector('.bottom').innerHTML = `&copy ${year} | Braden Huttash | WDD 230 Project | Last Modification: ${moddate}`;
