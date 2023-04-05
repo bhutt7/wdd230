@@ -17,8 +17,9 @@ const getWeather = async () => {
     const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     let date = new Date();
     let today = weekdays[date.getDay()];
-    let tomorrow = weekdays[date.getDay()];
-    let thirdDay = weekdays[datdate.getDay()];
+    let tomorrow = weekdays[date.getDay() + 1];
+    let thirdDay = weekdays[date.getDay() + 2];
+    console.log(today);
 
     document.querySelector('#today').textContent = today + ': ';
     document.querySelector('#tomorrow').textContent = tomorrow + ': ';
