@@ -37,6 +37,7 @@ nav a {
     font-size: 1em;
     text-decoration: none;
     color: #6CD4FF;
+    text-align: center;
 }
 
 nav a:first-child {
@@ -95,6 +96,14 @@ footer {
     margin: 5px;
 }
 
+hr {
+    width: 100%;
+    height: 1px;
+    grid-column: 1/4;
+    background-color: #6CD4FF;
+    border: 0px;
+}
+
 .bottom {
     grid-column: 1/4;
     text-align: center;
@@ -130,6 +139,7 @@ footer {
 .home-div p {
     padding: 25px;
     margin: 0;
+    font-size: 13pt;
 }
 
 #weather section{
@@ -147,10 +157,18 @@ footer {
 table {
     width: 100%;
     height: 150px;
+    background-color: #FFDAD5;
+}
+
+thead td {
+    font-weight: bold;
+    background-color: #6CD4FF;
+    color: #443850;
+    padding: 5px;
 }
 
 td {
-    width: 50%;
+    width: 30%;
 }
 
 table, th, td {
@@ -165,6 +183,7 @@ table, th, td {
 #forecast {
     border: 1px solid #A35336;
     padding: 20px;
+    background-color: #FFDAD5;
 }
 
 #forecast h3{
@@ -210,7 +229,29 @@ form input, form textarea {
 }
 
 /* About Page Elements */
+#about-main {
+    text-align: center;
+}
 
+#about-main h2 {
+    font-size: 24pt;
+}
+
+#about-main h3 {
+    text-decoration: underline;
+}
+
+#about-main p {
+    margin: 15px 15%;
+}
+
+#about-main span {
+    font-weight: lighter;
+}
+
+iframe {
+    margin-bottom: 35px;
+}
 
 
 /* Medium Size */
