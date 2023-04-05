@@ -191,6 +191,10 @@ table, th, td {
     text-decoration: underline;
 }
 
+ul li span {
+    text-align: left;
+}
+
 /* Fresh Page Elements */
 #fresh-main section {
     display: flex;

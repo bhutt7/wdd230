@@ -13,6 +13,16 @@ const getWeather = async () => {
     document.querySelector('#day1').textContent = data.days[0].temp;
     document.querySelector('#day2').textContent = data.days[1].temp;
     document.querySelector('#day3').textContent = data.days[2].temp;
+
+    const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    let date = new Date();
+    let today = weekdays[date.getDay()];
+    let tomorrow = weekdays[date.getDay()];
+    let thirdDay = weekdays[datdate.getDay()];
+
+    document.querySelector('#today').textContent = today + ': ';
+    document.querySelector('#tomorrow').textContent = tomorrow + ': ';
+    document.querySelector('#thirdDay').textContent = thirdDay + ': ';
 };
 
 getWeather();
